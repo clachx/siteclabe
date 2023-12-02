@@ -1,0 +1,73 @@
+.title{
+    font-size: 85px;
+    color: #F23064 ;
+    animation: flipTitle 2s;
+}
+
+@keyframes flipTitle {
+    from{
+        transform:rotateX(90deg);
+    }
+    to{
+        transform: rotateX(0deg);
+    }
+}
+
+
+@media (max-width: 620px){
+    .title{
+        font-size: 60px;
+    }
+
+   }
+
+   .container img {
+    max-width:300px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+   .container{
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    background-color: #EAFFED;
+}
+
+.containerInput input{
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: rgb(73, 68, 68);
+    outline: none;
+    margin-right: 8px;
+}
+
+.containerInput input::placeholder{
+    color: F1F1F1;
+}
+
+.buttonSearch{
+    background-color: transparent;
+    border: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.5s;
+    }
+
+    .buttonSearch:hover{
+        transform: rotateX(30deg);
+    }
+
+.main{
+    display:-webkit-inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
