@@ -1,0 +1,15 @@
+/* Catalog.css */
+
+.quadro-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .quadro {
+    width: calc(33.33% - 10px); /* Define a largura para ocupar cerca de um terço da largura do contêiner, considerando uma margem de 10px entre os itens */
+    margin-bottom: 20px; /* Adiciona uma margem inferior para espaçamento entre as linhas */
+  }
+  
+  /* Adicione estilos adicionais conforme necessário para os itens do quadro */
+  

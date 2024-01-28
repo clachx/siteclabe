@@ -1,0 +1,142 @@
+/* .App {
+  text-align: center;
+} */
+
+
+body {
+  background-color: rgb(234, 255, 237);
+  margin: 0; /* Remova as margens padrão do body, se desejar */
+  padding: 20px; /* Remova o preenchimento padrão do body, se desejar */
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  width: 100px; /* Ajuste o tamanho do logo conforme necessário */
+  height: auto;
+  margin-right: 10px; /* Adiciona um espaçamento entre o logo e outros elementos no cabeçalho */
+}
+
+/* .catalog { */
+  /* Adicione estilos para o catálogo conforme necessário */
+/* } */
+
+/* .quadro { */
+  /* Adicione outros estilos conforme necessário */
+
+  /* Reduza o espaçamento vertical entre os elementos */
+ /* margin-bottom: 10px; */
+/* } */
+
+/* Adicione estilos específicos para a descrição */
+.quadro h3 {
+margin-bottom: 0.5px; /* Reduza a margem abaixo do título */
+}
+
+/* Adicione estilos específicos para o preço */
+.quadro .description {
+margin-bottom: 2px; /* Reduza a margem abaixo da descrição */
+}
+
+/* Adicione estilos específicos para o preço */
+.quadro .price {
+margin-top: 2px; /* Adicione margem acima do preço */
+}
+
+/* App.css */
+.header {
+  display: flex;
+  justify-content: space-between; /* Align children elements with space in between */
+  align-items: center; /* Align items vertically at the center */
+  padding: 10px; /* Add padding to the header for spacing */
+
+  /* Other styles for the header can be added here */
+}
+
+/* .logo {
+  /* Adjust logo styles as needed */
+/* }
+
+.contato {
+  /* Styles for the container div */
+/* } */
+
+.buttonSearch {
+  /* Adjust button styles */
+  background-color:   transparent; /* Set the background color */
+  color: transparent; /* Set the text color */
+  padding: 10px; /* Add padding to the button */
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  margin-right: 10px; /* Adjust margin for spacing */
+}
+
+.image {
+  width: 50%; /* Adjust the percentage as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Navbar.css */
+/* nav {
+  background-color:  rgb(149, 222, 160); /* Set background color */
+  /* padding: 10px; Add padding to the navbar */
+/* } */
+
+nav a {
+  color: rgb(223, 67, 106); /* Set link text color */
+  text-decoration: none; /* Remove underline from links */
+  margin: 0 15px; /* Add spacing between links */
+  font-size: 20px; /* Set font size */
+}
+
+nav a:hover {
+  border-bottom: 2px solid rgb(225, 24, 24); /* Add bottom border on hover */
+}
+
+/* Add media query for responsive design if needed */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column; /* Stack links vertically on smaller screens */
+    align-items: center; /* Center align links */
+  }
+
+  nav a {
+    margin: 10px 0; /* Adjust spacing for vertical stacking */
+  }
+}
+
+/* App.css (ou o nome do seu arquivo de estilos) */
+
+.footer {
+  background-color: #54a951;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.contato {
+  font-size: 16px;
+}
+
+.sobre-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.imagem-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.texto-container {
+  max-width: 500px; /* Ajuste conforme necessário */
+}
+
+
+@import './leaflet.css';
